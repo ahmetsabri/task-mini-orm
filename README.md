@@ -14,9 +14,12 @@ A lightweight, extensible PHP-based ORM inspired by Laravel Eloquent, built from
    git clone git@github.com:ahmetsabri/task-mini-orm.git mini-orm
    cd mini-orm
    composer install
-   php index.php
+   php index.php 
    ```
-
+## Testing:
+```
+./vendor/bin/phpunit orm/tests
+```
 ## Quick Start with Docker
 1. Clone the repo:
    ```bash

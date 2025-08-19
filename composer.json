@@ -1,0 +1,40 @@
+{
+    "name": "mini-orm/framework",
+    "description": "A lightweight ORM framework built from scratch in PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed "
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "symfony/var-dumper": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MiniORM\\": "orm/",
+            "MiniORM\\Models\\": "orm/Models/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MiniORM\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests/",
+        "test-coverage": "phpunit --coverage-html coverage tests/"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

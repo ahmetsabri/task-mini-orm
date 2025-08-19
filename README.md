@@ -8,9 +8,17 @@ A lightweight, extensible PHP-based ORM inspired by Laravel Eloquent, built from
 - PHP 8.1+
 - MySQL 8.0
 - Composer (optional)
+###  Ensure `database/init.sql` exists with table schemas (e.g., `users`, `posts`, `comments`, `user_profiles`).
+## Quick Start without Docker
+1. Clone the repo:
+   ```bash
+   git clone git@github.com:ahmetsabri/task-mini-orm.git mini-orm
+   cd mini-orm
+   ```
+2. composer install
+3. php index.php
 
-## Quick Start
-
+## Quick Start with Docker
 1. Clone the repo:
    ```bash
    git clone git@github.com:ahmetsabri/task-mini-orm.git mini-orm
@@ -23,13 +31,6 @@ A lightweight, extensible PHP-based ORM inspired by Laravel Eloquent, built from
 3. Run example:
    ```bash
    docker-compose exec php php orm/example.php
-   ```
-
-## Installation
-1. Ensure `database/init.sql` exists with table schemas (e.g., `users`, `posts`, `comments`, `user_profiles`).
-2. Install Composer dependencies (if used):
-   ```bash
-   docker-compose exec php composer install
    ```
 
 ## Usage

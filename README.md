@@ -8,7 +8,7 @@ A lightweight, extensible PHP-based ORM inspired by Laravel Eloquent, built from
 - PHP 8.1+
 - MySQL 8.0
 - Composer (optional)
-###  Ensure `database/init.sql` exists with table schemas (e.g., `users`, `posts`, `comments`, `user_profiles`).
+###  Ensure `quick_db.sql` exists with table schemas (e.g., `users`, `posts`, `comments`, `user_profiles`).
 ## Quick Start without Docker
 1. Clone the repo:
    ```bash

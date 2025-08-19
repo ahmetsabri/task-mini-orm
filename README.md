@@ -10,13 +10,12 @@ A lightweight, extensible PHP-based ORM inspired by Laravel Eloquent, built from
 - Composer (optional)
 ###  Ensure `quick_db.sql` exists with table schemas (e.g., `users`, `posts`, `comments`, `user_profiles`).
 ## Quick Start without Docker
-1. Clone the repo:
    ```bash
    git clone git@github.com:ahmetsabri/task-mini-orm.git mini-orm
    cd mini-orm
+   composer install
+   php index.php
    ```
-2. composer install
-3. php index.php
 
 ## Quick Start with Docker
 1. Clone the repo:
